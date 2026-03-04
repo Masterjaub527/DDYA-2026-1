@@ -1,3 +1,3 @@
 def solve():
-    print("Hello, World!")
+    n = int(input())
 solve()
