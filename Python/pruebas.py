@@ -1,3 +1,3 @@
 def solve():
-    print("Hola mundo")
+    print("Hello, World!")
 solve()
