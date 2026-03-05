@@ -18,4 +18,4 @@ class Stack:
             return len(self.items)
         
         def head(self):
-            print(self.items[self.length()-1])
+            return self.items[self.length()-1]

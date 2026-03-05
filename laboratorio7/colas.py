@@ -2,7 +2,7 @@ class Nodo:
     def __init__(self, item):
         self.dato = item
         self.siguiente = None
-        
+
 class Cola:
     def __init__(self):
         self.head = None
@@ -27,11 +27,11 @@ class Cola:
             self.head = self.head.siguiente
             return dato
         
-    def head(self):
+    def cabeza(self):
         if not self.is_empty():
             return self.head.dato
         
-    def tail(self):
+    def cola(self):
         if not self.is_empty():
             return self.tail.dato
         
