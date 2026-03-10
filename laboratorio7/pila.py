@@ -11,11 +11,11 @@ class Stack:
         def pop(self):
             return self.items.pop(0)
 
-        def tail(self):
+        def head(self):
             return self.items[0]
 
         def length(self):
             return len(self.items)
         
-        def head(self):
+        def tail(self):
             return self.items[self.length()-1]
